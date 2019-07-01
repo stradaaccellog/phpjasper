@@ -69,7 +69,7 @@ class PHPJasper
      */
     public function compile(string $input, string $output = '')
     {
-        if (!is_file($input)) {
+        if (!is_file($input) && !is_dir($input)) {
             throw new Exception\InvalidInputFile();
         }
 
