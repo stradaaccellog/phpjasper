@@ -119,7 +119,9 @@ require __DIR__ . '/vendor/autoload.php';
 
 use PHPJasper\PHPJasper;
 
-$input = __DIR__ . '/vendor/geekcom/phpjasper/examples/hello_world.jrxml';   
+$input = __DIR__ . '/vendor/geekcom/phpjasper/examples/hello_world.jrxml';
+//or input dir
+//$input = __DIR__ . '/vendor/geekcom/phpjasper/examples';
 
 $jasper = new PHPJasper;
 $jasper->compile($input)->execute();
