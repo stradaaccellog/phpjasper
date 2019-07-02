@@ -9,3 +9,4 @@ tests/codeCoverage
 .settings
 ## PHPStorm
 .idea/
+/composer.lock
